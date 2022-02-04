@@ -54,3 +54,20 @@ h1{
 #bigbc6{
     background-color: rgb(223, 223, 255);
 }
+
+@media screen and (max-width: 950px) {
+    p{
+        font-size: 10px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    p{
+        font-size: 8px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    p{
+        font-size: 7px;
+    }
+  }
